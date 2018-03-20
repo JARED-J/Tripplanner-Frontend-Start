@@ -17,10 +17,12 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
 
+console.log(map)
+
 let activityMarker = buildMarker(iconUrls.activityImg, "activity", [-74.009151, 40.705086])
 let hotelMarker = buildMarker(iconUrls.hotelImg, "hotel", [-74.00, 40.727])
 let restaurantMarker = buildMarker(iconUrls.restaurantImg, "restaurant", [-74.01, 40.70086])
-console.log(activityMarker)
+console.log(activityMarker, "display")
 
 let activeMarkers = [];
 activeMarkers.push(activityMarker);
@@ -69,3 +71,5 @@ $('#restaurantBtn').on('click', function () {
         }
     })
 });
+
+map.addEventListener();
