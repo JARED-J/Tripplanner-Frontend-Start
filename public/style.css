@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .btn-custom {
+    background-color: hsl(283, 100%, 30%) !important;
+    border-color: #6d0099 #6d0099 hsl(283, 100%, 25%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+   }

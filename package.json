@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w --mode development"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/JARED-J/Tripplanner-Frontend-Start/issues"
   },
-  "homepage": "https://github.com/JARED-J/Tripplanner-Frontend-Start#readme"
+  "homepage": "https://github.com/JARED-J/Tripplanner-Frontend-Start#readme",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.44.1"
+  }
 }
